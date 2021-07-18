@@ -33,7 +33,7 @@ function createWindow() {
         app.quit();
     })
     ipc.handle('minimizeApp', (event, args) => {
-        win.hide();
+        win.minimize();
     })
 }
 
