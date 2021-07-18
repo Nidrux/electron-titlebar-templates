@@ -1,0 +1,7 @@
+:root {
+    --txt-clr: #fff;
+    --title-bar-clr: #141414;
+    --body-clr: #242424;
+    --hover-clr: #ae4af1;
+    --transition: all 300ms ease-in-out;
+}
