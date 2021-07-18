@@ -1,0 +1,22 @@
+/* COMPONENTS */
+@import url('root.css');
+@import url('./components/titlebar.css');
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* SRC */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  background-color: var(--body-clr);
+  color: var(--txt-clr);
+  font-family: 'Roboto', 'sans-serif';
+}
+button {
+    -webkit-app-region: no-drag;
+}

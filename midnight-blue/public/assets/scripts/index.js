@@ -1,0 +1,1 @@
+document.querySelectorAll('p')[0].innerText = api.default;

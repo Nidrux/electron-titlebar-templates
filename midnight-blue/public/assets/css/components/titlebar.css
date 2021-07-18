@@ -1,0 +1,28 @@
+@import url('root.css');
+#title-bar {
+    height: 5vh;
+    background-color: var(--title-bar-clr);
+    width: 100%;
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-app-region: drag;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.title-bar-icons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    grid-column: 2/3;
+
+}
+.title-bar-icons i {
+    margin-right: 2.5%;
+    -webkit-app-region: no-drag;
+    cursor: pointer;
+    color: var(--body-clr);
+    transition: var(--transition);
+}
+.title-bar-icons i:hover {
+    color: var(--hover-clr);
+}
